@@ -49,7 +49,7 @@ Dataset에는 각 명세서 날짜에 각 고객에 대해 집계된 profile fea
 
 - ****Stratified Cross validation****
 
-  K-Fold는 사전에 지정된 k 값 만큼 학습 세트와 검증 세트를 나눠서 k번의 학습과 평가를 반복적으로 진행한다. 이때, 데이터가 편항되어 있을 경우 단순 K-Fold cross validation을 사용하면 성능 평가가 잘 되지 않을 수 있으므로, target에 속성값의 개수를 동일하게 하게 나누어 데이터가 한 곳에 몰림을 방지하는 stratified k-fold cross-validation을 사용한다.
+  K-Fold는 사전에 지정된 k 값 만큼 학습 세트와 검증 세트를 나눠서 k번의 학습과 평가를 반복적으로 진행한다. 이때, 데이터가 편항되어 있을 경우 단순 K-Fold cross validation을 사용하면 성능 평가가 잘 되지 않을 수 있으므로, target에 속성값의 개수를 동일하게 하게 나누어 데이터가 한 곳에 몰림을 방지하는 stratified K-Fold cross validation을 사용한다.
 
 - **Evaluation Metric**
     
@@ -60,6 +60,3 @@ Dataset에는 각 명세서 날짜에 각 고객에 대해 집계된 profile fea
     G: Normalized Gini Coefficient
     
     D: Default rate captured at 4% 
-    
-    
-    
