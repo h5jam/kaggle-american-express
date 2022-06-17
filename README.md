@@ -45,7 +45,7 @@ Dataset에는 각 명세서 날짜에 각 고객에 대해 집계된 profile fea
 
 - **Hyperparameter parameter tuning**
 
-  Optuna를 사용하여 최적의 parameter를 찾는다. Optuna는 hyperparameter ****최적화 태스크를 도와주는 프레임워크로, parameter의 범위를 지정해주거나, parameter가 될 수 있는 목록을 설정하여 매 Trial 마다 parameter를 변경하면서, 최적의 parameter를 찾는다.
+  Optuna를 사용하여 최적의 parameter를 찾는다. Optuna는 hyperparameter 최적화 태스크를 도와주는 프레임워크로, parameter의 범위를 지정해주거나, parameter가 될 수 있는 목록을 설정하여 매 Trial 마다 parameter를 변경하면서, 최적의 parameter를 찾는다.
 
 - ****Stratified Cross validation****
 
