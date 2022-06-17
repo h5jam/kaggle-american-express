@@ -3,6 +3,8 @@ Predict if a customer will default in the future
 
 https://www.kaggle.com/competitions/amex-default-prediction
 
+leaderboard: https://www.kaggle.com/competitions/amex-default-prediction/leaderboard
+
 ## Overview
 Credit default prediction은 소비자 대출 사업의 위험 관리에 핵심적이다. 이는 대출 결정을 최적화할 수 있게 해주며, 더 나은 고객 경험과 건전한 비즈니스 경제로 이어진다. 따라서, ML 기술을 적용하여 월별 고객 프로필을 기반으로 credit default (미래에 신용 카드 잔액을 갚지 않을 확률)을 예측하는 모델을 구축함으로써 위험 관리를 지원한다. 산업 규모 dataset을 활용하며, Training, validation, testing datasets 에는 시계열 행동 데이터 및 익명화된 고객 프로파일 정보가 포함된다.
 
@@ -60,3 +62,6 @@ Dataset에는 각 명세서 날짜에 각 고객에 대해 집계된 profile fea
     G: Normalized Gini Coefficient
     
     D: Default rate captured at 4% 
+
+## Team
+StudentGradientDescent - **44**/1327 (The highest record: June 17 2022)
